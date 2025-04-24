@@ -1,4 +1,4 @@
-import ShareIcon from '../assets/images/svg/Sharing.svg';
+// import ShareIcon from '../assets/images/svg/Sharing.svg';
 import InfoIcon from '../assets/images/svg/info.svg';
 import HelpIcon from '../assets/images/svg/help.svg';
 import Participants from '../assets/images/svg/participants.svg';
@@ -18,7 +18,7 @@ export const cards = [
     {
         title: "Sharing",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
-        icon: ShareIcon,
+        // icon: ShareIcon,
     },
     {
         title: "Info",
