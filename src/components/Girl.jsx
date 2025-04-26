@@ -4,7 +4,7 @@ import { statsData } from '../utils/helper';
 
 const Girl = () => {
     return (
-        <section className="bg-cover relative bg-center bg-no-repeat bg-[url(./assets/images/png/girl.png)] bg-black/50 py-10">
+        <section className="bg-cover relative bg-center bg-no-repeat bg-[url(./assets/images/png/girl.png)] bg-black/50 py-13">
             <div className="absolute inset-0 bg-[#2C49FE]/80 z-0"></div>
             <div className="container mx-auto px-4 relative z-10 text-white">
                 <div className="text-center mb-10">

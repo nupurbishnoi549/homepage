@@ -6,7 +6,7 @@ import { cards } from '../utils/helper';
 const Special = () => {
     return (
         <section>
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 pb-10 xl:pt-32 lg:pt-24 pt-10">
                 <div className="flex flex-col lg:flex-row">
                     <div className="w-full lg:w-1/2 justify-center flex mb-8 xl:mb-0">
                         <img src={tv} alt="tv" className="w-full object-contain" />
@@ -18,10 +18,10 @@ const Special = () => {
                             <div className="absolute w-full max-w-[470px] h-[8px] bg-[#2C49FE] right-0 bottom-[15px]"></div>
                         </div>
                         <Heading headingText="What make us special ?" className="!leading-[100%]" />
-                        <p className="text-base font-normal pt-2 text-gray-700 mb-6 max-w-[633px] w-full">
+                        <p className="text-base font-normal pt-2 text-gray-700 mb-6 max-w-[600px] w-full">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                             efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem.
-                            Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit,
+                            Donec ut justo et leo congue  vitae nec arcu. Nunc elit elit,
                             malesuada id suscipit cursus.
                         </p>
 

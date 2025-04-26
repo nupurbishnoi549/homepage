@@ -92,3 +92,17 @@ export const galleryImages = [
     { src: img4, alt: 'lighting' },
     { src: img5, alt: 'funImage' }
 ];
+
+export const inputGroups = [
+    [
+        { type: "text", placeholder: "First Name" },
+        { type: "text", placeholder: "Last Name" }
+    ],
+    [
+        { type: "email", placeholder: "Email Address" }
+    ],
+    [
+        { type: "password", placeholder: "Password" },
+        { type: "password", placeholder: "Confirm Password" }
+    ]
+];

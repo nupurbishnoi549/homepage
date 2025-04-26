@@ -12,9 +12,9 @@ const EventSection = () => {
             <Header />
             <div className="flex-grow flex items-center pt-12 z-10 relative">
                 <div className="container mx-auto relative w-full px-3">
-                    <p className="text-white md:text-[64px] text-[44px] font-bold xl:w-[1044px] leading-[150%]">
+                    <p className="text-white md:text-[64px] text-[44px] font-bold xl:w-[1044px] leading-[150%] xl:mt-30 lg:mt-24 md:mt-14 mt-8">
                         Sed tortor in{" "}
-                        <span className="relative whitespace-nowrap before:content-[''] before:absolute before:w-[55px] before:h-2 before:bg-[#01C8FF] before:right-0 before:bottom-[-15px] before:z-[1] after:content-[''] after:absolute after:w-full after:max-w-[470px] after:h-2 after:bg-[#2C49FE] after:right-0 after:bottom-[-15px]">
+                        <span className="relative whitespace-nowrap before:content-[''] before:absolute before:w-[55px] before:h-2 before:bg-[#01C8FF] before:right-0 before:bottom-[-10px] before:z-[1] after:content-[''] after:absolute after:w-full after:max-w-[470px] after:h-2 after:bg-[#2C49FE] after:right-0 after:bottom-[-10px]">
                             quisque morbi
                         </span>{" "}
                         scelerisque etiam eu.
@@ -26,13 +26,13 @@ const EventSection = () => {
                         arcu. Nunc elit elit, malesuada id suscipit cursus,
                     </p>
 
-                    <div className="flex items-center gap-6 pt-10 mb-36">
+                    <div className="flex items-center gap-6 pt-10 lg:mb-36 mb-12">
                         <CustomBtn text="Get Started" myClass="hover:!bg-[#2C49FE] !text-[#1E71FF] hover:!text-white !border !border-[#1E71FF]" />
                         <a href="#" className="text-white">Learn more</a>
                     </div>
 
-                    <div className="flex flex-col md:flex-row justify-center w-full mb-16 ">
-                        <div className="w-full md:w-11/12 bg-blue-600/75 md:rounded-full rounded-2xl p-5">
+                    <div className="flex flex-col md:flex-row w-full mb-16 ">
+                        <div className="w-full lg:w-9/12 bg-blue-600/75 md:rounded-full rounded-2xl p-5">
                             <div className="flex flex-wrap justify-center items-center lg:gap-y-6">
 
                                 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py-2 px-4 border-0 lg:border-r lg:border-white">

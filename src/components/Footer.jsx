@@ -7,11 +7,11 @@ import { services, events, galleryImages } from '../utils/helper';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0a0a0a] py-8 text-white">
+        <footer className="bg-[#0a0a0a] pb-8 lg:pt-20 pt-10 text-white">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     <div className="lg:w-5/12 w-full mb-8 lg:mb-0">
-                        <div className="flex items-center mb-6">
+                        <div className="flex items-center mb-6 mt-2">
                             <img src={round} alt="round" className="md:w-24 md:h-16 w-16 h-12 object-contain" />
                             <h2 className="text-4xl font-bold text-[#2C49FE]">
                                 Events<span className="text-[#01C8FF]">Free</span>
@@ -33,11 +33,11 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:w-7/12 mt-8">
+                    <div className="w-full lg:w-7/12 mt-12">
                         <div className="flex flex-wrap">
                             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
                                 <ul>
-                                    <li className="mb-3">SERVICES</li>
+                                    <li className="mb-3 font-bold text-[14px]">SERVICES</li>
                                     {services.map((service, index) => (
                                         <li key={index} className="my-3">
                                             <span>{service.name}</span>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </div>
                             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
                                 <ul>
-                                    <li className="mb-3">EVENTS</li>
+                                    <li className="mb-3 font-bold text-[14px]">EVENTS</li>
                                     {events.map((event, index) => (
                                         <li key={index} className="my-3">
                                             <span>{event.name}</span>
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="w-full sm:w-1/2 md:w-1/3">
-                                <h2 className="mb-3">GALLERY</h2>
+                                <h2 className="mb-3 font-bold text-[14px]">GALLERY</h2>
                                 <div className="grid grid-cols-3 gap-x-4 gap-y-3">
                                     {galleryImages.map((image, index) => (
                                         <div key={index} className="mb-3 flex justify-center">
