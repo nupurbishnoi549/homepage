@@ -7,13 +7,13 @@ import group from '../assets/images/svg/group.svg';
 
 const Card = () => {
   return (
-      <section className="min-h-screen flex flex-col items-center justify-center space-y-12 py-16">
+      <section className="min-h-screen flex flex-col items-center justify-center space-y-10 py-16">
           <div className="text-center">
               <div className="relative w-[189px] mt-[30px] mx-auto">
                   <div className="absolute w-full max-w-[20px] h-[8px] bg-[#01C8FF] right-0 bottom-[15px] z-[1]"></div>
                   <div className="absolute w-full max-w-[470px] h-[8px] bg-[#2C49FE] right-0 bottom-[15px]"></div>
               </div>
-              <h1 className="text-5xl font-bold ">Choose your Next Event</h1>
+              <h1 className="md:text-5xl text-4xl font-bold ">Choose your Next Event</h1>
           </div>
 
           <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -25,17 +25,17 @@ const Card = () => {
 
 
                       <img src={card.img} alt="event" className="w-full rounded-lg" />
-                      <p className="text-2xl font-semibold mt-4">{card.title}</p>
+                      <p className="md:text-2xl text-lg font-semibold mt-4">{card.title}</p>
                       <div className="flex mt-2">
-                          <p className="text-sm text-gray-600 flex items-center gap-2">
+                          <p className="text-base font-normal text-gray-600 flex items-center gap-2">
                               <img src={calendar} alt="calendar" className="size-6" />{card.date}</p>
                       </div>
                       <div className="flex mt-2">
-                          <p className="text-sm text-gray-600 flex items-center gap-2">
+                          <p className="text-base font-normal text-gray-600 flex items-center gap-2">
                               <img src={mumbai} alt="mumbai" className="size-6" />{card.location}</p>
                       </div>
                       <div className="flex mt-2 mb-4">
-                          <p className="text-sm text-gray-600 flex items-center gap-2">
+                          <p className="text-base font-normal text-gray-600 flex items-center gap-2">
                               <img src={group} alt="group" className="size-6" />{card.attendees}</p>
                       </div>
                       <CustomBtn
