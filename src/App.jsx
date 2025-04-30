@@ -4,6 +4,8 @@ import Special from './components/Special'
 import Girl from './components/Girl'
 import Events from './components/Events'
 import Footer from './components/Footer'
+import HeroEvents from './components/HeroEvents'
+import Card from './components/Card'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Girl />
       <Events />
       <Footer />
+      <HeroEvents />
+      <Card />
     </>
   )
 }

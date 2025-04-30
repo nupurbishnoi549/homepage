@@ -12,6 +12,7 @@ import img2 from '../assets/images/png/img2.png';
 import img3 from '../assets/images/png/img3.png';
 import img4 from '../assets/images/png/img4.png';
 import img5 from '../assets/images/png/img5.png';
+import handImg from '../assets/images/png/handImg.png';
 
 
 export const cards = [
@@ -105,4 +106,70 @@ export const inputGroups = [
         { type: "password", placeholder: "Password" },
         { type: "password", placeholder: "Confirm Password" }
     ]
+];
+
+export const handCards = [
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
+    {
+        img: handImg,
+        title: 'Lorem ipsum dolar sit de',
+        date: '10/02/2022',
+        location: 'Mumbai',
+        attendees: '1,080',
+    },
 ];
