@@ -1,9 +1,9 @@
 import React from 'react';
-import insta from '../assets/images/svg/insta.svg';
-import facebook from '../assets/images/svg/facebook.svg';
-import twitter from '../assets/images/svg/twitter.svg';
+import insta from '../../assets/images/svg/insta.svg';
+import facebook from '../../assets/images/svg/facebook.svg';
+import twitter from '../../assets/images/svg/twitter.svg';
 import round from "/src/assets/images/png/round.png";
-import { services, events, galleryImages } from '../utils/helper';
+import { services, events, galleryImages } from '../../utils/helper';
 
 const Footer = () => {
     return (

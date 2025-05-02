@@ -1,23 +1,16 @@
 import React from 'react'
-import Hero from './components/Hero'
-import Special from './components/Special'
-import Girl from './components/Girl'
-import Events from './components/Events'
-import Footer from './components/Footer'
-import HeroEvents from './components/HeroEvents'
-import Card from './components/Card'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/view/Home'
+import About from './components/view/About'
 
 const App = () => {
   return (
-    <>
-      <Hero />
-      <Special />
-      <Girl />
-      <Events />
-      <Footer />
-      <HeroEvents />
-      <Card />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={ <About/>} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 

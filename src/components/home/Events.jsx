@@ -1,8 +1,8 @@
 import React from 'react';
-import scatboard from '../assets/images/png/scatboard.png';
-import Heading from "./common/CustomHeading";
-import CustomBtn from '../components/common/CustomBtn';
-import { eventCards, inputGroups } from '../utils/helper';
+import scatboard from '../../assets/images/png/scatboard.png';
+import Heading from "../common/CustomHeading";
+import CustomBtn from '../common/CustomBtn';
+import { eventCards, inputGroups } from '../../utils/helper';
 
 
 const Events = () => {

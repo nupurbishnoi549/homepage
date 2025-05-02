@@ -1,6 +1,6 @@
 import React from 'react'
-import Heading from "./common/CustomHeading";
-import { statsData } from '../utils/helper';
+import Heading from "../common/CustomHeading";
+import { statsData } from '../../utils/helper';
 
 const Girl = () => {
     return (

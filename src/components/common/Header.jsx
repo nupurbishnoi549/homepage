@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import CustomBtn from "./CustomBtn";
 import round from "/src/assets/images/png/round.png";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
+import { NAV_DATA } from "../../utils/helper";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -37,11 +39,11 @@ const Header = () => {
                 </div>
 
                 <ul className="hidden lg:flex items-center gap-8 text-white">
-                    {["HOME", "EVENTS", "FEED", "USER NAME"].map((item, index) => (
+                    {NAV_DATA.map((item, index) => (
                         <li key={index}>
-                            <a href="#" className="hover:text-[#2C49FE] font-semibold text-base">
-                                {item}
-                            </a>
+                            <Link to={item.link} className="hover:text-[#2C49FE] font-semibold text-base">
+                                {item.title}
+                            </Link>
                         </li>
                     ))}
                     <li>

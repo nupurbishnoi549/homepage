@@ -1,7 +1,7 @@
 import React from "react";
-import tv from "../assets/images/png/tv.png";
-import Heading from "./common/CustomHeading";
-import { cards } from '../utils/helper';
+import tv from "../../assets/images/png/tv.png";
+import Heading from "../common/CustomHeading";
+import { cards } from '../../utils/helper';
 
 const Special = () => {
     return (

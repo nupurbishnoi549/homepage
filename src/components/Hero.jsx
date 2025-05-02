@@ -5,7 +5,7 @@ import location from '../assets/images/svg/location.svg';
 import date from '../assets/images/png/date.png';
 import capacity from '../assets/images/svg/capacity.svg';
 
-const EventSection = () => {
+const Hero = () => {
     return (
         <section className="relative bg-cover bg-center flex flex-col min-h-screen bg-[url(./assets/images/png/hero-bg.png)]">
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-60 z-10"></div>
@@ -79,4 +79,4 @@ const EventSection = () => {
     );
 };
 
-export default EventSection;
+export default Hero;

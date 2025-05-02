@@ -173,3 +173,23 @@ export const handCards = [
         attendees: '1,080',
     },
 ];
+
+export const NAV_DATA = [
+    {
+        title: "Home",
+        link :"/"
+    },
+    {
+        title: "Events",
+        link: "/about"
+    },
+    {
+        title: "Feed",
+        link: "/"
+    },
+    {
+        title: "User Name",
+        link: "/"
+    },
+
+]
